@@ -12,7 +12,7 @@ const socialFormats = {
 
 type socialFormat = keyof typeof socialFormats
 
-export default function social() {
+export default function Social() {
    
   const [uploadedImage , setUploadedImage] = useState<string | null>(null)
   const [selectedFormat , setSelectedFormat] = useState<socialFormat>("Instagram Square (1:1)");

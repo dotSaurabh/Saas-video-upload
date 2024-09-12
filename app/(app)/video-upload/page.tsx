@@ -4,7 +4,7 @@ import axios from 'axios'
 import { useRouter } from 'next/navigation'
 
 
-function videoUpload() {
+function VideoUpload() {
   const [file , setFile] = useState<File | null>(null)
   const [title , setTitle] = useState("")
   const [description , setDescription] = useState("")
@@ -96,4 +96,4 @@ function videoUpload() {
   );
 }
 
-export default videoUpload
+export default VideoUpload
